@@ -5,9 +5,9 @@ This repository contains the runnable code for the interactive audio-description
 ## Included package
 
 - `streamingAD/`: streaming AD generation, interactive experiment runners, and evaluation scripts.
-- `streamingAD/face_gallery_data/`: compact face-gallery metadata required by the supplied pipelines.
+- `streamingAD/face_gallery_data/`: compact face-gallery metadata used by the supplied pipelines.
 
-Generated outputs, videos, model checkpoints, Hugging Face caches, and Python bytecode are intentionally excluded.
+Generated outputs, videos, model checkpoints, Hugging Face caches, and Python bytecode are intentionally excluded. The larger PlotTree feature binary (`plotree_features.pkl`) is also kept as an external data dependency; copy it into `streamingAD/face_gallery_data/` when running pipelines that use face-embedding lookup.
 
 ## Environment
 
