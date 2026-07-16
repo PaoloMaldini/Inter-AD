@@ -8,6 +8,8 @@
 # For a different CUDA version, install a matching PyTorch build first and
 # adjust the torch/torchvision/triton/nvidia-* entries below accordingly.
 
+--extra-index-url https://download.pytorch.org/whl/cu118
+
 accelerate==1.14.0
 annotated-doc==0.0.4
 anyio==4.13.0
